@@ -38,7 +38,6 @@ A Flask-based web application that allows users to interact with a restaurant me
        ├── README.md
        └── requirements.txt
 
-<!-- TREEVIEW END -->
 
 🛠️ Installation & Setup
 -Clone the Repository
