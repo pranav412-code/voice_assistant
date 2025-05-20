@@ -22,13 +22,13 @@ A Flask-based web application that allows users to interact with a restaurant me
 - Responsive frontend interface
 
 Project Structure
-voice_assistant/
+restaurant_voice_assistant/
 │
 ├── frontend/
 │   ├── index.html
 │   └── script.js
 ├── Model/
-│   └── vosk-model-small-en-us-0.15
+│   └── vosk-model-small-en-us-0.15/
 ├── server/
 │   ├── app.py
 │   └── menu.json
