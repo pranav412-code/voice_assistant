@@ -64,9 +64,9 @@ python -m venv venv
 
 venv\Scripts\activate
 
-Run python app.py
-
 pip install -r requirements.txt
+
+Run python app.py
 
  Step 2. in another terminal
 
