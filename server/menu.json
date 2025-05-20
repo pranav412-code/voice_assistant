@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Margherita Pizza",
+        "description": "Classic pizza with tomato, mozzarella, and basil",
+        "price": 12.99,
+        "category": "Main Course",
+        "is_special": true,
+        "special_date": "2025-05-20"
+    },
+    {
+        "name": "Spaghetti Marinara",
+        "description": "Spaghetti with house-made marinara sauce",
+        "price": 9.99,
+        "category": "Main Course",
+        "is_special": false,
+        "special_date": ""
+    },
+    {
+        "name": "Caesar Salad",
+        "description": "Fresh romaine with Caesar dressing and croutons",
+        "price": 6.99,
+        "category": "Appetizer",
+        "is_special": false,
+        "special_date": ""
+    },
+    {
+        "name": "Chocolate Lava Cake",
+        "description": "Warm cake with a molten chocolate center",
+        "price": 7.99,
+        "category": "Dessert",
+        "is_special": true,
+        "special_date": "2025-05-20"
+    },
+    {
+        "name": "Grilled Salmon",
+        "description": "Salmon fillet with lemon herb sauce",
+        "price": 22.5,
+        "category": "Main Course",
+        "is_special": false,
+        "special_date": ""
+    }
+]
