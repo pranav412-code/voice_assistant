@@ -43,6 +43,8 @@ source venv/Scripts/activate   # On Windows: venv\Scripts\activate
 
 pip install -r requirements.txt
 
+3.Vosk speech recognition model is already installed and there in repo
+
 ▶️ Running the App
 
 cd server
