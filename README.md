@@ -23,7 +23,7 @@ A Flask-based web application that allows users to interact with a restaurant me
 
 
 <!-- TREEVIEW START -->
-    ```bash
+    
        voice_assistant/
        │
        ├── frontend/
@@ -37,8 +37,7 @@ A Flask-based web application that allows users to interact with a restaurant me
        ├── venv/
        ├── README.md
        └── requirements.txt
-    ```
-└── requirements.txt
+
     <!-- TREEVIEW END -->
 
 🛠️ Installation & Setup
