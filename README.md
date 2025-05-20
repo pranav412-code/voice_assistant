@@ -66,6 +66,8 @@ venv\Scripts\activate
 
 Run python app.py
 
+pip install -r requirements.txt
+
  Step 2. in another terminal
 
 cd frontend 
