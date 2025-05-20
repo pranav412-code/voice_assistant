@@ -1,51 +1,49 @@
-﻿# Restraurent_voice_assistant
+# Restaurant Voice Assistant
 
-This is a Flask-based web application that allows users to interact using voice commands. It captures audio through the browser, transcribes it using Vosk (an offline speech-to-text engine), and displays the recognized text in the UI.
+A Flask-based web application that allows users to interact with a restaurant menu using voice commands. It captures audio through the browser, transcribes it using Vosk (offline speech-to-text), processes queries using a JSON-based menu and the Gemini API, and provides spoken responses via text-to-speech.
 
-Tech Stack
--Python 3.12
--Flask
--Vosk (Speech Recognition)
--HTML / JavaScript (with MediaRecorder API)
-=Tailwind CSS (for frontend styling - optional)
+## Tech Stack
+- **Python 3.12**: Backend logic
+- **Flask**: Web server framework
+- **Vosk**: Offline speech recognition
+- **Google Gemini API**: Query processing for non-menu questions
+- **pydub/FFmpeg**: Audio format conversion (WebM to WAV)
+- **HTML/JavaScript**: Frontend with `MediaRecorder` API for audio capture
+- **Tailwind CSS**: Frontend styling
 
-Features
-Press the "V" key or click the microphone button to start/stop voice recording
-Converts spoken audio into text
-Fully offline speech recognition using Vosk
-Simple and responsive frontend interface
+## Features
+- Press the "V" key or click the microphone button to start/stop voice recording
+- Captures audio in the browser and sends it to the backend for transcription
+- Transcribes speech offline using Vosk
+- Queries a JSON-based restaurant menu for items, prices, specials, low-cost/high-cost dishes, and categories
+- Falls back to Gemini API for general questions
+- Displays transcribed text and responses in the UI
+- Speaks responses aloud using browser-based text-to-speech
+- Responsive frontend interface
 
 Project Structure
-restaurant-voice-assistant/
+voice_assistant/
 │
-├── app.py                   # Flask backend server
-├── templates/
-│   └── index.html           # Frontend UI
-├── static/
-│   └── script.js            # JavaScript for audio recording
-├── model/
-│   └── vosk-model-small-en-us-0.15/   # Vosk speech model (downloaded separately)
-├── audio/
-│   └── (temp audio files)
-├── requirements.txt
-└── README.md
+├── frontend/
+│   ├── index.html
+│   └── script.js
+├── Model/
+│   └── vosk-model-small-en-us-0.15
+├── server/
+│   ├── app.py
+│   └── menu.json
+├── README.md
+└── requirements.txt
+
 
 🛠️ Installation & Setup
-1. Clone the Repository
+-Clone the Repository
 
 git clone https://github.com/your-username/voice_assistant.git
 
 cd voice_assistant
 
-2. Set Up Python Environment
-
-python -m venv venv
-
-venv\Scripts\activate
-
-pip install -r requirements.txt
-
-3. Vosk speech recognition model is already installed and is there folder called Model
+-Vosk speech recognition model is already installed and is there folder called Model
 
 ▶️ Running the App
 
@@ -55,7 +53,13 @@ Step 1. in a terminal
 
 cd server
 
-python app.py
+Set Up Python virtual Environment
+
+python -m venv venv
+
+venv\Scripts\activate
+
+Run python app.py
 
 Step 2. in another terminal
 
