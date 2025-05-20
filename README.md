@@ -42,13 +42,13 @@ A Flask-based web application that allows users to interact with a restaurant me
 
 
 ## Installation & Setup
-# -Clone the Repository
+-Clone the Repository
 
 git clone https://github.com/your-username/voice_assistant.git
 
 cd voice_assistant
 
-# -Vosk speech recognition model is already installed and is there folder called Model
+-Vosk speech recognition model is already installed and is there folder called Model
 
 ## Running the App
 
