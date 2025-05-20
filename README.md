@@ -23,15 +23,21 @@ A Flask-based web application that allows users to interact with a restaurant me
 
 
 <!-- TREEVIEW START -->
-├── frontend/
-│   ├── index.html
-│   └── script.js
-├── Model/
-│   └── vosk-model-small-en-us-0.15/
-├── server/
-│   ├── app.py
-│   └── menu.json
-├── README.md
+    ```bash
+       voice_assistant/
+       │
+       ├── frontend/
+       │   ├── index.html
+       │   └── script.js
+       ├── Model/
+       │   └── vosk-model-small-en-us-0.15 
+       ├── server/
+       │   ├── app_2.py
+       │   └── menu.json
+       ├── venv/
+       ├── README.md
+       └── requirements.txt
+    ```
 └── requirements.txt
     <!-- TREEVIEW END -->
 
