@@ -42,19 +42,19 @@ A Flask-based web application that allows users to interact with a restaurant me
 
 
 ## Installation & Setup
-#-Clone the Repository
+# -Clone the Repository
 
 git clone https://github.com/your-username/voice_assistant.git
 
 cd voice_assistant
 
-#-Vosk speech recognition model is already installed and is there folder called Model
+# -Vosk speech recognition model is already installed and is there folder called Model
 
 ## Running the App
 
-Before running server and frontend activate venv in both terminal
+Before running server activate venv in terminal
 
-# Step 1. in a terminal
+ Step 1. in a terminal
 
 cd server
 
@@ -66,7 +66,7 @@ venv\Scripts\activate
 
 Run python app.py
 
-# Step 2. in another terminal
+ Step 2. in another terminal
 
 cd frontend 
 
