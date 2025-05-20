@@ -22,6 +22,8 @@ A Flask-based web application that allows users to interact with a restaurant me
 - Responsive frontend interface
 
 
+##Project Structure
+
 <!-- TREEVIEW START -->
     
        voice_assistant/
@@ -39,20 +41,20 @@ A Flask-based web application that allows users to interact with a restaurant me
        └── requirements.txt
 
 
-🛠️ Installation & Setup
--Clone the Repository
+##🛠️ Installation & Setup
+#-Clone the Repository
 
 git clone https://github.com/your-username/voice_assistant.git
 
 cd voice_assistant
 
--Vosk speech recognition model is already installed and is there folder called Model
+#-Vosk speech recognition model is already installed and is there folder called Model
 
-▶️ Running the App
+##▶️ Running the App
 
 Before running server and frontend activate venv in both terminal
 
-Step 1. in a terminal
+#Step 1. in a terminal
 
 cd server
 
@@ -64,7 +66,7 @@ venv\Scripts\activate
 
 Run python app.py
 
-Step 2. in another terminal
+#Step 2. in another terminal
 
 cd frontend 
 
@@ -72,7 +74,7 @@ python -m http.server 5500
 
 open http//localhost:5500 on browser
  
-🎙️ Usage
+##🎙️ Usage
 
 Press the "V" key or click the 🎤 mic button
 
@@ -80,7 +82,7 @@ Speak into your microphone
 
 Your speech will be transcribed and displayed as text on the page
 
-📌 Notes
+##📌 Notes
 
 Ensure your browser has microphone permissions enabled
 
@@ -88,6 +90,6 @@ For best performance, use Chrome or Firefox
 
 All transcription is done locally — no internet is required once the model is downloaded
 
-📄 License
+##📄 License
 
 This project is for educational/demo use. Check Vosk’s license for speech model terms.
